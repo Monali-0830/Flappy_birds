@@ -1,15 +1,53 @@
-# FlappyBirdAI
+#🐦 Flappy Bird AI
 
-![Flappy Bird in action](FB.gif)
+A reinforcement learning-based AI that learns to play Flappy Bird using Python and NEAT (NeuroEvolution of Augmenting Topologies).
 
-Using NEAT Python to learn to play Flappy Bird. This code uses search and optimise technique called genetic algorithm which creates a particular number of random configurations, the best configuration of them is used to create the next generation of neural networks, as we repeat the process, with time, we observe that the performance gets better. 
+##✨ Features
 
-## NEAT Python
-Here is the documentation for the genetic module : https://neat-python.readthedocs.io/en/latest/
+🚀 Uses NEAT to evolve neural networks for playing Flappy Bird.
 
-### Reference
-Blog that did a great job of explaining what's happening here : https://medium.com/chris-nielsen/teaching-an-ai-to-play-flappy-bird-f0b18d65569b
+🎮 Implements Pygame for game rendering.
 
-### Tutorial
-Tim at techwithtim does a great job of teaching all the nitty gritty details of the project.
-Check it out here : https://www.youtube.com/watch?v=OGHA-elMrxI
+📈 Trains multiple generations of AI agents to improve performance.
+
+👀 Visualizes the learning process in real-time.
+
+##⚙️ Installation
+
+Ensure you have Python installed, then install the required dependencies:
+
+pip install pygame neat-python
+
+##▶️ How to Run
+
+Clone the repository and execute the main script:
+
+git clone https://github.com/yourusername/flappybird-ai.git
+cd flappybird-ai
+python main.py
+
+##🛠 How It Works
+
+Game Environment: 🎮 Built using Pygame to simulate Flappy Bird.
+
+NEAT Algorithm: 🧠 Evolves a neural network to learn how to play the game.
+
+Fitness Function: 🏆 AI is rewarded for surviving longer and passing obstacles.
+
+Training Process: 🔁 Over multiple generations, the AI improves its gameplay.
+
+##⚙️Configuration
+
+The config-feedforward.txt file contains NEAT settings. Adjust parameters such as population size and mutation rates to fine-tune training.
+
+
+##🤝Contributing
+
+Feel free to contribute by improving the AI, adding new features, or optimizing performance. Fork the repo and create a pull request!
+
+##📜License
+
+This project is licensed under the MIT License.
+
+
+
